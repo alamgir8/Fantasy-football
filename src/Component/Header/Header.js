@@ -6,36 +6,24 @@ const Header = () => {
     return (
         <div className="container-header">
         <section className="container">
-            <nav id="navbar" class="navbar text-center navbar-expand-md navbar-dark ">
+            <nav id="navbar" className="navbar text-center navbar-expand-md navbar-dark ">
                 <div className="container">
-                    <a className="nav-link active px-3  text-dark" href="#">
+                    <li className="nav-link active px-3  text-dark" >
                     <h2>Fantasy Football</h2>
-                    </a>
+                    </li>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ms-auto  mb-lg-0 nav justify-content-end">
-                        <li className="nav-item pt-2">
-                            <span>
-                                <a className="nav-link active px-3  text-dark"  href="#">
-                                <h6>Team</h6>
-                                </a>
-                            </span>
+                        <li className="nav-item pt-2">                             
+                            <h6>Team</h6>
                         </li>
                         <li className="nav-item pt-2">
-                            <span>
-                                <a className="nav-link active px-3  text-dark"  href="#">
-                                <h6>Tickets</h6>
-                                </a>
-                            </span>
+                            <h6>Tickets</h6>
                         </li>
                         <li className="nav-item pt-2">
-                            <span>
-                                <a className="nav-link active px-3  text-dark"  href="#">
                                 <h6>Player</h6>
-                                </a>
-                            </span>
                         </li>
                     </ul>
                     </div>

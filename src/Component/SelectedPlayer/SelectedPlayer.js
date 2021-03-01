@@ -5,13 +5,13 @@ import { } from "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 const SelectedPlayer = (props) => {
    
     let selectedPlayer = props.selectedPlayer;
+   
 
     let totalSalary = 0;
-    let salary = 0;
     for (let i = 0; i < selectedPlayer.length; i++) {
         const player = selectedPlayer[i];
-        totalSalary += player.salary;
-        salary = player.salary
+        totalSalary = totalSalary + player.salary;
+       
     }
 
     if (selectedPlayer.length > 11 ) {
@@ -23,22 +23,20 @@ const SelectedPlayer = (props) => {
 
   
     return (
-        <div className="selected-player-container">
-            <div className="total-player">
-                <h5>Total Selected Player : {selectedPlayer.length}</h5>
-                <h5 className="text-center">Player List </h5>
+        <div className="card custom-rounded">
+            <div className="card-header bg-custom-info ">
+                <h5 className="mb-0 text-white">Total Selected Player : {selectedPlayer.length}</h5>
             </div>
-            <div className="selected-player">
-                <p>
-                <ol className="text-justify">
-                        {
-                            selectedPlayer.map(player => <li>{player.name} : £{player.salary}</li>)
-                        }
-                    </ol>
-                </p>               
+            <div className="card-body">
+                <ol className="list-group list-group-flush player-info-list">
+                <h6>Selected Player List </h6>
+                    {
+                        selectedPlayer.map(player => <li className="list-group-item px-0">{player.name} : <strong>£{player.salary}</strong></li>)
+                    }
+                </ol>          
             </div>
-            <div className="total-salary">
-                <h5>Total Salary : £{totalSalary}</h5>
+            <div className="card-footer">
+                <h5 className="mb-0">Total Salary : £{totalSalary}</h5>
             </div>
             
         </div>

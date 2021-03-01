@@ -1,36 +1,50 @@
 
-.player-container img{
-    width: 200px;
-    height:220px;
-}
-
-.player-info img{
-    width:20px;
-    height:18px;
-    border-radius: 2px;
-    
-}
 .player-info li{
     list-style: none;
 }
-.player-details{
-    border: 2px solid lightgray;
-    padding: 10px;
-    border-radius:10px;
-    box-shadow: 5px 5px 7px lightgray;
-   
+.custom-rounded{
+    border-radius:10px !important;
 }
-.player-image{
-    border-bottom: 2px solid lightgray;
+
+.card-image img{
+    border-radius: 10px 10px 0 0;
 }
-.player-image img{
-    border-radius: 5px;
+
+.card-logo img{
+    width: 25px;
 }
-.player-info{
-    border-bottom: 2px solid lightgray;
-    font-size: 16px;
-    font-weight: 600;
+.player-info-list li{
+    font-size: 15px;
 }
-#add-button{
-    background-color: rgb(245, 4, 85);
+.player-info-list li strong{
+    color: #757575;
+}
+.player-info-list li span{
+    font-size:16px;
+}
+.player-info-list li.list-group-item{
+    padding: 2px 0;
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+}
+.salary{
+    font-size: 18px;
+}
+.salary .total-salary{
+    color:#3563FA;
+    font-size: 20px;
+    font-weight: 700;
+}
+.select-btn{
+    padding:8px 18px;
+    font-size: 14px;
+    line-height:23px;
+    font-weight: 500;
+    background:#FF5166;
+    color: #ffffff;
+}
+.select-btn:hover{
+    background:#E90038;
+    color: #ffffff;
 }

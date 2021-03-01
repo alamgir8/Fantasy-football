@@ -1,8 +1,7 @@
-
-import './App.css';
+import {  } from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Players from './Component/Players/Players';
 import Header from './Component/Header/Header'
-import {  } from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
 
 
 function App() {
@@ -10,9 +9,9 @@ function App() {
 
   return (
     <div className="main-container">
+      <Header></Header>
        <div className="container">
-          <Header></Header>
-         <Players ></Players>
+         <Players></Players>
     </div>
     </div>
   );
