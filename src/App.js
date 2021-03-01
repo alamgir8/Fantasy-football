@@ -9,11 +9,11 @@ function App() {
 
 
   return (
-    <div className="container">
-      <Header></Header>
-    
-     <Players ></Players>
-      
+    <div className="main-container">
+       <div className="container">
+          <Header></Header>
+         <Players ></Players>
+    </div>
     </div>
   );
 }

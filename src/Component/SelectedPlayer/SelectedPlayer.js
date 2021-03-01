@@ -24,16 +24,22 @@ const SelectedPlayer = (props) => {
   
     return (
         <div className="selected-player-container">
-            <h5>Total Selected Player : {selectedPlayer.length}</h5>
-            
-            <p>Player List : 
-                  <ol>
-                      {
-                          selectedPlayer.map(player => <li>{player.name} : £{player.salary}</li>)
-                      }
-                  </ol>
-            </p>
-            <h5>Total Salary : £{totalSalary}</h5>
+            <div className="total-player">
+                <h5>Total Selected Player : {selectedPlayer.length}</h5>
+                <h5 className="text-center">Player List </h5>
+            </div>
+            <div className="selected-player">
+                <p>
+                <ol className="text-justify">
+                        {
+                            selectedPlayer.map(player => <li>{player.name} : £{player.salary}</li>)
+                        }
+                    </ol>
+                </p>               
+            </div>
+            <div className="total-salary">
+                <h5>Total Salary : £{totalSalary}</h5>
+            </div>
             
         </div>
     );

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import FakeData from '../../FakeData/FakeData.json';
+import PlayerData from '../../PlayerData/PlayerData.json';
 import Player from '../Player/Player';
 import SelectedPlayer from '../SelectedPlayer/SelectedPlayer';
 import {  } from "./Players.css";
@@ -10,7 +10,7 @@ const Players = () => {
 
     const [players, setPlayers] = useState([]);
     useEffect(() => {
-        setPlayers(FakeData);
+        setPlayers(PlayerData);
     })
 
     

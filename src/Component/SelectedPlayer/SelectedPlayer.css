@@ -1,6 +1,7 @@
 
 
 .selected-player-container{
+    background-color: rgb(0, 247, 247);
     width: 100%;
     position:sticky;
     top:0;
@@ -8,4 +9,19 @@
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
+}
+.selected-player{
+    background-color: rgb(112, 218, 218);
+}
+p{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.total-salary{
+    border-top: 1px solid grey;
+}
+.total-player{
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
 }
