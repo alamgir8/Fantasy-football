@@ -1,0 +1,32 @@
+
+.player-container img{
+    width: 150px;
+    height:120px;
+}
+
+.player-info img{
+    width:20px;
+    height:18px;
+    border-radius: 2px;
+    
+}
+.player-info li{
+    list-style: none;
+}
+.player-details{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 5px 5px 7px lightgray;
+   
+}
+.player-image{
+    border-bottom: 2px solid lightgray;
+}
+.player-image img{
+    border-radius: 5px;
+}
+.player-info{
+    border-bottom: 2px solid lightgray;
+}
+

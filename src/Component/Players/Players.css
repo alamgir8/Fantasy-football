@@ -1,0 +1,17 @@
+
+.player-container{
+    display:flex;
+    
+}
+
+.team-player{
+    width: 75%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1.5rem;
+}
+.playing-player{
+    width:25%;
+    
+}
+
