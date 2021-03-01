@@ -16,6 +16,27 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ms-auto  mb-lg-0 nav justify-content-end">
+                    <li className="nav-item pt-2">
+                            <span>
+                                <a className="nav-link active px-3  text-dark"  href="#navbar">
+                                <h5  className="text-white">News</h5>
+                                </a>
+                            </span>
+                        </li>
+                        <li className="nav-item pt-2">
+                            <span>
+                                <a className="nav-link active px-3  text-dark"  href="#navbar">
+                                <h5  className="text-white">Match Centre</h5>
+                                </a>
+                            </span>
+                        </li>
+                        <li className="nav-item pt-2">
+                            <span>
+                                <a className="nav-link active px-3  text-dark"  href="#navbar">
+                                <h5  className="text-white">Fixture</h5>
+                                </a>
+                            </span>
+                        </li>
                         <li className="nav-item pt-2">
                             <span>
                                 <a className="nav-link active px-3  text-dark"  href="#navbar">
@@ -34,6 +55,13 @@ const Header = () => {
                             <span>
                                 <a className="nav-link active px-3  text-dark"  href="#navbar">
                                 <h5  className="text-white">Player</h5>
+                                </a>
+                            </span>
+                        </li>
+                        <li className="nav-item pt-2">
+                            <span>
+                                <a className="nav-link active px-3  text-dark"  href="#navbar">
+                                <h5  className="text-white">Help</h5>
                                 </a>
                             </span>
                         </li>
