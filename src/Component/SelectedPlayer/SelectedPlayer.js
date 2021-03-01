@@ -31,7 +31,7 @@ const SelectedPlayer = (props) => {
                 <ol className="list-group list-group-flush player-info-list">
                 <h6>Selected Player List </h6>
                     {
-                        selectedPlayer.map(player => <li className="list-group-item px-0">{player.name} : <strong>£{player.salary}</strong></li>)
+                        selectedPlayer.map(player => <li className="list-group-item px-0" key={player.code}>{player.name} : <strong>£{player.salary}</strong></li> )
                     }
                 </ol>          
             </div>

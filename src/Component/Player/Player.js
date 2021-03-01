@@ -24,7 +24,7 @@ const Player = (props) => {
                         <img src={image} alt="player" className="card-img-top"/>
                     </div>
                     <div className="card-body">
-                        <h2 className="h5">{name}</h2>
+                        <h2 className="h5 text-center">{name}</h2>
                         <ul className="list-group list-group-flush my-3 player-info-list">
                             <li className="list-group-item">
                                 <strong>Age :</strong> 
