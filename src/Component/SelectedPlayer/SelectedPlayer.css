@@ -5,5 +5,8 @@
     top: 100px;
 }
 .bg-custom-info{
-    background-color: #899BFF;
+    background-color: #3563FA;
+}
+.card-header h5{
+    font-size:18px;
 }
